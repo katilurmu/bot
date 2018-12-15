@@ -1,12 +1,12 @@
 {
-  "name": "AlphaBot",
+  "name": "KP-TV",
   "version": "0.0.1",
   "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "node bot.js"
   },
-  "author": "DRPlax",
+  "author": "Katilpromo",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.0",
