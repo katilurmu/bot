@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 
 exports.run = async (client, message, params) => {
-  var channel = client.channels.find('id', '520612874125574144')
+  var channel = client.channels.find('id', '522780567574544404')
     const asdf = await client.channels.get(message.channel.id).createInvite()
   message.delete();
   const embed = new Discord.RichEmbed()
-  .setTitle("» AlphaBot | Canlı Destek")
+  .setTitle("» KP-TV | Canlı Destek")
   .setDescription("**Canlı Desteği kullandğın için teşekkür ederiz, Seninle ekibim ilgilenicektir lütfen bekle!**")
-  .setFooter("30 Saniye içinde geri dönülmezse lütfen iletişime geçin Dr.Plax#3243.")
+  .setFooter("30 Saniye içinde geri dönülmezse lütfen iletişime geçin @♛ 𝕂𝕒𝕥𝕚𝕝𝕡𝕣𝕠𝕞𝕠 𝕋𝕧#8225 .")
  message.channel.send(embed)
       const invite = new Discord.RichEmbed()
   .setAuthor("» Canlı Destek | Talep")
@@ -27,5 +27,5 @@ exports.run = async (client, message, params) => {
 exports.help = {
   name: 'canlıdestek',
   description: 'Canlı Destek Tablebi Oluşturur.',
-  usage: 'a!canlıdestek'
+  usage: 'k!canlıdestek'
 };
