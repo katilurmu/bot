@@ -5,7 +5,7 @@ const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-require('./util/eventLoader')(client);
+
 
 var prefix = ayarlar.prefix;
 
@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + `yardım | ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor! | Davet etmek için a!davet | a!destekgrup `) 
+  client.user.setGame(prefix + `yardım | ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor! | Davet etmek için k!davet | k!destekgrup `) 
   console.log("Bağlandım!")
 });
 
