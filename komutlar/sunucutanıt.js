@@ -1,11 +1,11 @@
 ﻿const Discord = require('discord.js');
 
 exports.run = async (client, message, params) => {
-  var channel = client.channels.find('id', '520612487444299787')
+  var channel = client.channels.find('id', '519230576327131176')
     const asdf = await client.channels.get(message.channel.id).createInvite()
   const embed = new Discord.RichEmbed()
   .setTitle(" Sunucu tanıt Komutu")
-  .setDescription("**» Sunucunuz Burada Tanıtıldı: https://discord.gg/HMVWZjC**")
+  .setDescription("**» Sunucunuz Burada Tanıtıldı: https://discord.gg/XFxE6pG**")
   .setColor("RANDOM")
   .setFooter("Alpha Bot v0.0.2")
   .setTimestamp()
@@ -32,5 +32,5 @@ exports.run = async (client, message, params) => {
 exports.help = {
   name: 'sunucutanıt',
   description: 'Sunucunuzu tanıtırsınız.',
-  usage: 'a!sunucutanıt'
+  usage: 'k!sunucutanıt'
 };
